@@ -1,0 +1,28 @@
+{
+    "common": {
+      "ess": "magazyn energii",
+      "essMonitoring": "Monitoring systemu magazynowania energii",
+      "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+      "connectedDevices": "{{count}} podłączonych urządzeń",
+      "loadingDevices": "Ładowanie urządzeń...",
+      "loadingData": "Ładowanie danych...",
+      "loadError": "Błąd: {{message}}",
+      "loadErrorFallback": "Błąd podczas ładowania danych",
+      "selectDevicePrompt": "Wybierz urządzenie po lewej, aby zobaczyć dane",
+      "device": "Urządzenie",
+      "unnamed": "Bez nazwy"
+    },
+    "table": {
+      "parameter": "Parametr",
+      "value": "Wartość",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "meterPcs": "Licznik PCS",
+      "tms": "TMS",
+      "other": "Inne",
+      "pcs": "PCS",
+      "cell": "CELL",
+      "bms": "BMS"
+    }
+  }

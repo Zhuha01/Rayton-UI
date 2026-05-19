@@ -1,0 +1,231 @@
+{
+  "common": {
+    "roles": {
+      "superUser": "Superuser",
+      "user": "User"
+    },
+    "labels": {
+      "email": "Email",
+      "fullName": "Full name",
+      "company": "Company",
+      "status": "Status",
+      "description": "Description",
+      "plantObjectId": "Site ID",
+      "location": "Location",
+      "timezone": "Time zone",
+      "id": "ID"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "na": "N/A"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "cancel": "Cancel",
+      "save": "Save",
+      "saveChanges": "Save changes"
+    },
+    "a11y": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "increment": "Increment",
+      "decrement": "Decrement"
+    },
+    "placeholders": {
+      "selectCompanyLoading": "Loading companies…",
+      "selectCompany": "Select a company",
+      "emailExample": "name@company.com",
+      "fullName": "Enter full name",
+      "password": "Enter password",
+      "repeatPassword": "Repeat password",
+      "leaveEmptyToKeep": "Leave empty to keep unchanged",
+      "repeatNewPassword": "Repeat new password",
+      "examplePlantIdNumber": "e.g., 2500",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "timezoneExample": "e.g., Europe/Kyiv",
+      "textLine1": "Line 1",
+      "textLine2": "Line 2",
+      "tabConfigJsonOptional": "Tab configuration JSON (optional)"
+    },
+    "pagination": {
+      "itemsPerPage": "Items per page:",
+      "itemsShort": "Items:"
+    },
+    "errors": {
+      "errorPrefix": "Error:",
+      "genericWithMessage": "Error: {{message}}",
+      "accessDenied": "Access denied.",
+      "failedToFetchPlants": "Failed to fetch plants"
+    }
+  },
+  "validation": {
+    "required": {
+      "selectCompany": "Select a company",
+      "email": "Email is required",
+      "password": "Password is required",
+      "confirmPassword": "Confirm your password",
+      "tenantName": "Name is required"
+    },
+    "invalid": {
+      "email": "Invalid email address"
+    },
+    "minLength": {
+      "password8": "Password must be at least 8 characters long"
+    },
+    "maxLength": {
+      "tenantName255": "No more than 255 characters",
+      "tenantDescription1024": "No more than 1024 characters"
+    },
+    "mismatch": {
+      "passwords": "Passwords do not match"
+    },
+    "number": {
+      "positive": "Must be a positive number"
+    }
+  },
+  "toasts": {
+    "user": {
+      "created": "User created successfully.",
+      "updated": "User updated successfully.",
+      "deleted": "User deleted successfully.",
+      "deleteError": "An error occurred while deleting the user"
+    },
+    "tenant": {
+      "created": "Company created successfully.",
+      "updated": "Company updated successfully.",
+      "deletedWithName": "Company \"{{name}}\" was deleted successfully.",
+      "deleteError": "An error occurred while deleting the company"
+    },
+    "plant": {
+      "created": "Site created successfully.",
+      "updated": "Site updated successfully.",
+      "deleted": "Site deleted successfully.",
+      "deleteError": "An error occurred while deleting the site"
+    }
+  },
+  "modals": {
+    "user": {
+      "add": {
+        "title": "Add user",
+        "description": "Fill out the form below to add a new user to the system."
+      },
+      "edit": {
+        "trigger": "Edit user",
+        "title": "Edit user",
+        "description": "Update the user details below."
+      },
+      "delete": {
+        "trigger": "Delete user",
+        "title": "Delete user",
+        "description": {
+          "beforeStrong": "All data associated with this user will also be ",
+          "strong": "permanently deleted.",
+          "afterStrong": " Are you sure? This action cannot be undone."
+        }
+      }
+    },
+    "tenant": {
+      "add": {
+        "title": "Add company",
+        "description": "Fill out the form below to add a new company to the system."
+      },
+      "edit": {
+        "trigger": "Edit company",
+        "title": "Edit company",
+        "description": "Update the company details below."
+      },
+      "delete": {
+        "trigger": "Delete company",
+        "title": "Delete company",
+        "description": {
+          "beforeName": "All users and data associated with company ",
+          "afterName": " will also be ",
+          "strong": "permanently deleted.",
+          "afterStrong": " Are you sure? This action cannot be undone."
+        }
+      }
+    },
+    "plant": {
+      "add": {
+        "title": "Add site",
+        "description": "Fill out the form below to add a new site to the system.",
+        "requiredFieldsError": "Please provide the site ID and time zone.",
+        "createErrorFallback": "Failed to create site"
+      },
+      "edit": {
+        "title": "Edit site",
+        "description": "Update the site details below.",
+        "updateErrorFallback": "Failed to update site"
+      },
+      "delete": {
+        "trigger": "Delete station",
+        "title": "Delete station",
+        "description": {
+          "beforePlantId": "Are you sure you want to delete station ",
+          "afterPlantId": "? This action cannot be undone."
+        },
+        "deleteErrorFallback": "Failed to delete station"
+      }
+    }
+  },
+  "fields": {
+    "user": {
+      "labels": {
+        "password": "Password",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password",
+        "confirmNewPassword": "Confirm new password",
+        "superUser": "Superuser",
+        "active": "Active",
+        "activeWithDefaultYes": "Active? (Default: Yes)"
+      },
+      "errors": {
+        "failedToLoadCompanies": "Failed to load companies."
+      }
+    },
+    "tenant": {
+      "labels": {
+        "name": "Name",
+        "description": "Description"
+      },
+      "placeholders": {
+        "name": "Company name",
+        "description": "Company description"
+      }
+    },
+    "plant": {
+      "labels": {
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "textLine1": "Text (line 1)",
+        "textLine2": "Text (line 2)",
+        "tabConfig": "Tab configuration"
+      }
+    }
+  },
+  "admin": {
+    "title": "User management",
+    "summary": {
+      "totalUsers": "Total users: {{count}}"
+    },
+    "errors": {
+      "loadUsersWithMessage": "Failed to load users: {{message}}"
+    }
+  },
+  "tenant": {
+    "title": "Company management",
+    "summary": {
+      "totalTenants": "Total companies: {{count}}"
+    }
+  },
+  "plantManagement": {
+    "title": "Site management",
+    "summary": {
+      "totalPlants": "Total sites: {{count}}"
+    }
+  }
+}

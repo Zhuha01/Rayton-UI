@@ -1,0 +1,71 @@
+{
+  "charts": {
+    "powerTitle": "Moc, MW",
+    "priceTitle": "Cena, tys. UAH",
+    "noData": "Brak danych do wykresu"
+  },
+  "legend": {
+    "charge": "Ładowanie",
+    "discharge": "Rozładowanie",
+    "price": "Cena"
+  },
+  "tooltip": {
+    "priceUnit": "tys. UAH"
+  },
+  "page": {
+    "title": "Zarządzanie harmonogramem"
+  },
+  "calendar": {
+    "today": "Dzisiaj",
+    "prevMonth": "Poprzedni miesiąc",
+    "nextMonth": "Następny miesiąc",
+    "weekdaysShort": ["Pn", "Wt", "Śr", "Cz", "Pt", "Sb", "Nd"]
+  },
+  "actions": {
+    "refresh": "Odśwież",
+    "saveChanges": "Zapisz zmiany"
+  },
+  "table": {
+    "headers": {
+      "rec": "#",
+      "start": "Start",
+      "end": "Koniec",
+      "fromGrid": "Z sieci",
+      "sell": "Sprzedaż",
+      "charge": "Ładowanie",
+      "chargeLimit": "Limit ładowania",
+      "discharge": "Rozładowanie",
+      "compact": {
+        "rec": "#",
+        "start": "Start",
+        "end": "Koniec",
+        "fromGrid": "Z sieci",
+        "sell": "Sprzedaż",
+        "charge": "Ładowanie",
+        "chargeLimit": "Limit ładowania",
+        "discharge": "Rozładowanie"
+      },
+      "light": {
+        "rec": "Rec",
+        "start": "Start",
+        "end": "End",
+        "offGrid": "OffGrid",
+        "chgPow": "ChgPow",
+        "chgLim": "ChgLim",
+        "dischPow": "DischPow"
+      }
+    },
+    "mobile": {
+      "startTimeAria": "Czas startu",
+      "toggles": {
+        "fromGrid": "Z sieci",
+        "sell": "Sprzedaż"
+      },
+      "fields": {
+        "charge": "Ładowanie",
+        "chargeLimit": "Limit ładowania",
+        "discharge": "Rozładowanie"
+      }
+    }
+  }
+}

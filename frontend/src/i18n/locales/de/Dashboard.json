@@ -1,0 +1,63 @@
+{
+  "timeRange": {
+    "1D": "Tag",
+    "1W": "Woche",
+    "1M": "Monat",
+    "1Y": "Jahr",
+    "All": "Alle"
+  },
+  "toolbar": {
+    "zoom": "ZOOM",
+    "resetZoom": "Zoom zurücksetzen",
+    "export": "Export",
+    "exportCsv": "CSV exportieren",
+    "exportXlsx": "XLSX exportieren",
+    "exportPng": "PNG exportieren",
+    "exportErrorPng": "Fehler beim PNG-Export",
+    "exportError": "Exportfehler",
+    "exportSuccess": "Export erfolgreich",
+    "noData": "Keine Daten"
+  },
+  "calendar": {
+    "today": "Heute",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "prevMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat",
+    "weekdaysShort": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+  },
+  "rangeHint": {
+    "1W": { "current": "Aktuelle Woche", "last": "Letzte 7 Tage" },
+    "1M": { "current": "Aktueller Monat", "last": "Letzte 30 Tage" },
+    "1Y": { "current": "Aktuelles Jahr", "last": "Letzte 12 Monate" }
+  },
+  "chartControls": {
+    "expandCharts": "Charts erweitern",
+    "collapseCharts": "Charts einklappen",
+    "socCombined": "SOC kombiniert anzeigen"
+  },
+  "axis": {
+    "power": "Leistung,{{unit}}",
+    "chargePct": "Ladung,%",
+    "powerSocCombined": "Leistung,{{unit}} / SOC,%",
+    "energy": "Energie,{{unit}}",
+    "yearWithUnit": "Jahr {{year}}, {{unit}}"
+  },
+  "battery": {
+    "title": "Batterieladestand (SOC), %"
+  },
+  "legend": {
+    "SOLAR_GENERATION": "PV-Erzeugung",
+    "PLANT_CONSUMPTION": "Werksverbrauch",
+    "GRID_1": "Netzverbrauch 1",
+    "GRID_2": "Netzverbrauch 2",
+    "GRID_3": "Netzverbrauch 3",
+    "GRID_4": "Netzverbrauch 4",
+    "ESS_POWER": "ESS-Leistung",
+    "ESS_SOC": "Batterie-SOC",
+    "GENERATOR_POWER": "Generator",
+    "ESS_CHARGE_FROM_PV": "ESS-Ladung aus PV",
+    "ESS_CHARGE_TOTAL": "Laden (gesamt)",
+    "ESS_DISCHARGE_TOTAL": "Entladen (gesamt)"
+  }
+}

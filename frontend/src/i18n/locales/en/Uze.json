@@ -1,0 +1,28 @@
+{
+    "common": {
+      "ess": "ESS",
+      "essMonitoring": "Energy storage system monitoring",
+      "lastUpdated": "Last updated: {{date}}",
+      "connectedDevices": "{{count}} connected devices",
+      "loadingDevices": "Loading devices...",
+      "loadingData": "Loading data...",
+      "loadError": "Error: {{message}}",
+      "loadErrorFallback": "Error loading data",
+      "selectDevicePrompt": "Select a device on the left to see data",
+      "device": "Device",
+      "unnamed": "Unnamed"
+    },
+    "table": {
+      "parameter": "Parameter",
+      "value": "Value",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "meterPcs": "PCS Meter",
+      "tms": "TMS",
+      "other": "Other",
+      "pcs": "PCS",
+      "cell": "CELL",
+      "bms": "BMS"
+    }
+  }

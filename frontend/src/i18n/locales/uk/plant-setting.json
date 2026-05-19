@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "saveChanges": "Зберегти зміни",
+    "revert": "Скасувати"
+  },
+  "placeholder": {
+    "selectOption": "Оберіть опцію"
+  },
+  "status": {
+    "success": "Успішно",
+    "failed": "Помилка",
+    "enabled": "Увімкнено",
+    "disabled": "Вимкнено"
+  },
+  "a11y": {
+    "revertChange": "Скасувати зміну",
+    "incrementValue": "Збільшити значення",
+    "decrementValue": "Зменшити значення"
+  },
+  "errors": {
+    "loadingSettingsPrefix": "Помилка завантаження налаштувань:"
+  },
+  "labels": {
+    "dataWithId": "Дані {{id}}"
+  },
+  "command": {
+    "sending": "Надсилання команди…",
+    "noChangesToSave": "Немає змін для збереження",
+    "confirmed": "Команду підтверджено",
+    "failedWithError": "Помилка команди: {{error}}",
+    "unknownError": "Невідома помилка",
+    "failedTimeout": "Помилка команди (тайм-аут)",
+    "sentAwaitingConfirmation": "Команду надіслано, очікуємо підтвердження…",
+    "saved": "Зміни збережено",
+    "savedNoMsgId": "Зміни збережено (без msg_id)",
+    "failedToSend": "Не вдалося надіслати команду"
+  },
+  "toasts": {
+    "saveFailedTitle": "Помилка збереження",
+    "saveFailedFallbackDescription": "Не вдалося зберегти налаштування."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "statusCard": {
+    "currentModeCaption": "Aktueller Betriebsmodus (Speicher)"
+  },
+  "management": {
+    "automation": "Automatik",
+    "modePlaceholder": "Intelligentes Laden und Entladen",
+    "pick": "Übernehmen",
+    "picked": "Übernommen"
+  },
+  "actions": {
+    "start": "Start",
+    "stop": "Stopp"
+  },
+  "toasts": {
+    "commandTimeoutTitle": "Befehls-Timeout",
+    "commandTimeoutDescription": "Keine Antwort vom Gerät für Befehl {{messageId}}.",
+    "updateFailedTitle": "Aktualisierung fehlgeschlagen",
+    "updateFailedDescription": "Befehl konnte nicht gesendet werden."
+  },
+  "errors": {
+    "loadFailed": "Fehler beim Laden der Daten: {{message}}"
+  },
+  "indicators": {
+    "title": "Diagnosepanel",
+    "fallbackLabel": "Status {{id}}",
+    "filterAll": "Alle",
+    "filterActive": "Aktiv",
+    "filterInactive": "Inaktiv",
+    "emptyFilter": "Keine Einträge für den gewählten Filter"
+  },
+  "commandState": {
+    "sending": "Wird gesendet…",
+    "sent": "Gesendet",
+    "saved": "Gespeichert",
+    "changesSaved": "Änderungen gespeichert",
+    "failed": "Fehlgeschlagen",
+    "timeoutMessage": "Zeitüberschreitung: keine Geräteantwort"
+  },
+  "schematic": {
+    "title": "Schalter-Statusmnemonik",
+    "openInNewTab": "Schema in einem neuen Tab öffnen",
+    "openLabel": "Öffnen",
+    "pdfFallback": "PDF-Vorschau ist nicht verfügbar."
+  }
+}

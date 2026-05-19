@@ -1,0 +1,8 @@
+{
+  "title": "404",
+  "heading": "Ups!",
+  "description": "Nie znaleziono strony, której szukasz.",
+  "actions": {
+    "goBack": "Wróć"
+  }
+}

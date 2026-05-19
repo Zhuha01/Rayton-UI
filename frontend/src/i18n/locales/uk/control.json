@@ -1,0 +1,46 @@
+{
+  "statusCard": {
+    "currentModeCaption": "Поточний режим роботи УЗЕ"
+  },
+  "management": {
+    "automation": "Автоматика",
+    "modePlaceholder": "Розумний заряд-розряд",
+    "pick": "Обрати",
+    "picked": "Обрано"
+  },
+  "actions": {
+    "start": "Старт",
+    "stop": "Стоп"
+  },
+  "toasts": {
+    "commandTimeoutTitle": "Тайм-аут команди",
+    "commandTimeoutDescription": "Немає відповіді від пристрою для команди {{messageId}}.",
+    "updateFailedTitle": "Не вдалося оновити",
+    "updateFailedDescription": "Не вдалося надіслати команду."
+  },
+  "errors": {
+    "loadFailed": "Помилка завантаження даних: {{message}}"
+  },
+  "indicators": {
+    "title": "Діагностична панель",
+    "fallbackLabel": "Статус {{id}}",
+    "filterAll": "Усі",
+    "filterActive": "Активні",
+    "filterInactive": "Неактивні",
+    "emptyFilter": "Немає записів для обраного фільтра"
+  },
+  "commandState": {
+    "sending": "Надсилання…",
+    "sent": "Надіслано",
+    "saved": "Збережено",
+    "changesSaved": "Зміни збережено",
+    "failed": "Помилка",
+    "timeoutMessage": "Тайм-аут: немає відповіді від пристрою"
+  },
+  "schematic": {
+    "title": "Мнемосхема статусів перемикачів",
+    "openInNewTab": "Відкрити схему в новій вкладці",
+    "openLabel": "Відкрити",
+    "pdfFallback": "Прев'ю PDF недоступне."
+  }
+}

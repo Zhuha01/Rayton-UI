@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Ustawienia użytkownika",
+  "sections": {
+    "personal": "Dane osobowe",
+    "security": "Bezpieczeństwo"
+  },
+  "fields": {
+    "fullName": "Imię i nazwisko",
+    "email": "Adres e-mail",
+    "organization": "Organizacja",
+    "currentPassword": "Obecne hasło",
+    "newPassword": "Nowe hasło",
+    "confirmPassword": "Potwierdź hasło"
+  },
+  "placeholders": {
+    "fullName": "Wpisz imię i nazwisko",
+    "email": "Wpisz e-mail",
+    "tenantLoading": "Ładowanie…",
+    "tenantUndefined": "Nie określono",
+    "currentPassword": "Obecne hasło",
+    "newPassword": "Wpisz nowe hasło",
+    "confirmPassword": "Potwierdź nowe hasło"
+  },
+  "validation": {
+    "emailRequired": "E-mail jest wymagany",
+    "passwordFieldsRequired": "Wypełnij wszystkie pola hasła",
+    "passwordMinLength": "Hasło musi mieć co najmniej 8 znaków",
+    "passwordMismatch": "Hasła nie są zgodne"
+  },
+  "toast": {
+    "settingsSaved": "Ustawienia zapisane",
+    "accountDeleted": "Twoje konto zostało pomyślnie usunięte"
+  },
+  "actions": {
+    "cancel": "Anuluj",
+    "saveSettings": "Zapisz ustawienia"
+  },
+  "deleteAccount": {
+    "heading": "Usuń konto",
+    "description": "Trwale usuń swoje dane i wszystko powiązane z kontem.",
+    "buttonDelete": "Usuń",
+    "dialogTitle": "Wymagane potwierdzenie",
+    "dialogBody": "Wszystkie dane konta zostaną trwale usunięte. Jeśli jesteś pewien, kliknij „Potwierdź”. Tej operacji nie można cofnąć.",
+    "dialogCancel": "Anuluj",
+    "dialogConfirm": "Usuń"
+  }
+}

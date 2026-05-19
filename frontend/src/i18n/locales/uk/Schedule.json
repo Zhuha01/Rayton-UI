@@ -1,0 +1,71 @@
+{
+  "charts": {
+    "powerTitle": "Потужність, МВт",
+    "priceTitle": "Ціна, тис. грн",
+    "noData": "Немає даних для побудови графіка"
+  },
+  "legend": {
+    "charge": "Заряд",
+    "discharge": "Розряд",
+    "price": "Ціна"
+  },
+  "tooltip": {
+    "priceUnit": "тис. грн"
+  },
+  "page": {
+    "title": "Керування розкладом"
+  },
+  "calendar": {
+    "today": "Сьогодні",
+    "prevMonth": "Попередній місяць",
+    "nextMonth": "Наступний місяць",
+    "weekdaysShort": ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+  },
+  "actions": {
+    "refresh": "Оновити",
+    "saveChanges": "Зберегти зміни"
+  },
+  "table": {
+    "headers": {
+      "rec": "#",
+      "start": "Початок",
+      "end": "Кінець",
+      "fromGrid": "З мережі",
+      "sell": "Продаж",
+      "charge": "Заряд",
+      "chargeLimit": "Ліміт заряду",
+      "discharge": "Розряд",
+      "compact": {
+        "rec": "#",
+        "start": "Початок",
+        "end": "Кінець",
+        "fromGrid": "З мережі",
+        "sell": "Продаж",
+        "charge": "Заряд",
+        "chargeLimit": "Ліміт заряду",
+        "discharge": "Розряд"
+      },
+      "light": {
+        "rec": "Rec",
+        "start": "Start",
+        "end": "End",
+        "offGrid": "OffGrid",
+        "chgPow": "ChgPow",
+        "chgLim": "ChgLim",
+        "dischPow": "DischPow"
+      }
+    },
+    "mobile": {
+      "startTimeAria": "Час початку",
+      "toggles": {
+        "fromGrid": "З мережі",
+        "sell": "Продаж"
+      },
+      "fields": {
+        "charge": "Заряд",
+        "chargeLimit": "Ліміт заряду",
+        "discharge": "Розряд"
+      }
+    }
+  }
+}

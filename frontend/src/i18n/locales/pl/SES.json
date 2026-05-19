@@ -1,0 +1,30 @@
+{
+    "common": {
+      "ses": "PV",
+      "sesMonitoring": "Monitoring systemu elektrowni słonecznych",
+      "lastUpdated": "Ostatnia aktualizacja: {{date}}",
+      "connectedDevices": "{{count}} podłączonych urządzeń",
+      "loadingDevices": "Ładowanie urządzeń...",
+      "loadingData": "Ładowanie danych...",
+      "loadError": "Błąd: {{message}}",
+      "loadErrorFallback": "Błąd podczas ładowania danych",
+      "selectDevicePrompt": "Wybierz urządzenie po lewej, aby zobaczyć dane",
+      "device": "Urządzenie",
+      "unnamed": "Bez nazwy"
+    },
+    "table": {
+      "parameter": "Parametr",
+      "value": "Wartość",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "smartLogger": "SmartLogger",
+      "inverter": "Falownik",
+      "meter": "Licznik",
+      "mainGridMeter": "Licznik sieci głównej",
+      "backupGridMeter": "Licznik sieci rezerwowej/generatora",
+      "gridMeter": "Licznik sieciowy",
+      "genMeter": "Licznik generatora",
+      "other": "Inne"
+    }
+  }

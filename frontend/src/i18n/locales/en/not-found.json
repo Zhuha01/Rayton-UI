@@ -1,0 +1,8 @@
+{
+  "title": "404",
+  "heading": "Oops!",
+  "description": "The page you are looking for was not found.",
+  "actions": {
+    "goBack": "Go Back"
+  }
+}

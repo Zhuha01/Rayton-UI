@@ -1,0 +1,71 @@
+{
+  "charts": {
+    "powerTitle": "Power, MW",
+    "priceTitle": "Price, ths. UAH",
+    "noData": "No data available for charting"
+  },
+  "legend": {
+    "charge": "Charge",
+    "discharge": "Discharge",
+    "price": "Price"
+  },
+  "tooltip": {
+    "priceUnit": "ths. UAH"
+  },
+  "page": {
+    "title": "Schedule management"
+  },
+  "calendar": {
+    "today": "Today",
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month",
+    "weekdaysShort": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "saveChanges": "Save changes"
+  },
+  "table": {
+    "headers": {
+      "rec": "#",
+      "start": "Start",
+      "end": "End",
+      "fromGrid": "From grid",
+      "sell": "Sell",
+      "charge": "Charge",
+      "chargeLimit": "Charge limit",
+      "discharge": "Discharge",
+      "compact": {
+        "rec": "#",
+        "start": "Start",
+        "end": "End",
+        "fromGrid": "From grid",
+        "sell": "Sell",
+        "charge": "Charge",
+        "chargeLimit": "Charge limit",
+        "discharge": "Discharge"
+      },
+      "light": {
+        "rec": "Rec",
+        "start": "Start",
+        "end": "End",
+        "offGrid": "OffGrid",
+        "chgPow": "ChgPow",
+        "chgLim": "ChgLim",
+        "dischPow": "DischPow"
+      }
+    },
+    "mobile": {
+      "startTimeAria": "Start time",
+      "toggles": {
+        "fromGrid": "From grid",
+        "sell": "Sell"
+      },
+      "fields": {
+        "charge": "Charge",
+        "chargeLimit": "Charge limit",
+        "discharge": "Discharge"
+      }
+    }
+  }
+}

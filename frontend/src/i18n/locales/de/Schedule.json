@@ -1,0 +1,71 @@
+{
+  "charts": {
+    "powerTitle": "Leistung, MW",
+    "priceTitle": "Preis, Tsd. UAH",
+    "noData": "Keine Daten für das Diagramm verfügbar"
+  },
+  "legend": {
+    "charge": "Laden",
+    "discharge": "Entladen",
+    "price": "Preis"
+  },
+  "tooltip": {
+    "priceUnit": "Tsd. UAH"
+  },
+  "page": {
+    "title": "Zeitplan verwalten"
+  },
+  "calendar": {
+    "today": "Heute",
+    "prevMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat",
+    "weekdaysShort": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
+  },
+  "actions": {
+    "refresh": "Aktual.",
+    "saveChanges": "Speichern"
+  },
+  "table": {
+    "headers": {
+      "rec": "#",
+      "start": "Start",
+      "end": "Ende",
+      "fromGrid": "Aus dem Netz",
+      "sell": "Verkauf",
+      "charge": "Laden",
+      "chargeLimit": "Ladelimit",
+      "discharge": "Entladen",
+      "compact": {
+        "rec": "#",
+        "start": "Start",
+        "end": "Ende",
+        "fromGrid": "Netz",
+        "sell": "Verkauf",
+        "charge": "Laden",
+        "chargeLimit": "Ladelimit",
+        "discharge": "Entladen"
+      },
+      "light": {
+        "rec": "Rec",
+        "start": "Start",
+        "end": "End",
+        "offGrid": "OffGrid",
+        "chgPow": "ChgPow",
+        "chgLim": "ChgLim",
+        "dischPow": "DischPow"
+      }
+    },
+    "mobile": {
+      "startTimeAria": "Startzeit",
+      "toggles": {
+        "fromGrid": "Aus dem Netz",
+        "sell": "Verkauf"
+      },
+      "fields": {
+        "charge": "Laden",
+        "chargeLimit": "Ladelimit",
+        "discharge": "Entladen"
+      }
+    }
+  }
+}

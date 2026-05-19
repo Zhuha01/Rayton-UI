@@ -1,0 +1,46 @@
+{
+  "statusCard": {
+    "currentModeCaption": "Bieżący tryb pracy magazynu energii"
+  },
+  "management": {
+    "automation": "Automatyka",
+    "modePlaceholder": "Inteligentne ładowanie i rozładowanie",
+    "pick": "Wybierz",
+    "picked": "Wybrano"
+  },
+  "actions": {
+    "start": "Start",
+    "stop": "Stop"
+  },
+  "toasts": {
+    "commandTimeoutTitle": "Przekroczenie czasu komendy",
+    "commandTimeoutDescription": "Brak odpowiedzi urządzenia dla komendy {{messageId}}.",
+    "updateFailedTitle": "Aktualizacja nie powiodła się",
+    "updateFailedDescription": "Nie udało się wysłać komendy."
+  },
+  "errors": {
+    "loadFailed": "Błąd ładowania danych: {{message}}"
+  },
+  "indicators": {
+    "title": "Panel diagnostyczny",
+    "fallbackLabel": "Status {{id}}",
+    "filterAll": "Wszystkie",
+    "filterActive": "Aktywne",
+    "filterInactive": "Nieaktywne",
+    "emptyFilter": "Brak pozycji dla wybranego filtra"
+  },
+  "commandState": {
+    "sending": "Wysyłanie…",
+    "sent": "Wysłano",
+    "saved": "Zapisano",
+    "changesSaved": "Zmiany zapisane",
+    "failed": "Błąd",
+    "timeoutMessage": "Limit czasu: brak odpowiedzi urządzenia"
+  },
+  "schematic": {
+    "title": "Mnemoschemat statusów przełączników",
+    "openInNewTab": "Otwórz schemat w nowej karcie",
+    "openLabel": "Otwórz",
+    "pdfFallback": "Podgląd PDF jest niedostępny."
+  }
+}

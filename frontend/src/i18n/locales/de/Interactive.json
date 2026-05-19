@@ -1,0 +1,38 @@
+{
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "charging": "Lädt",
+    "discharging": "Entlädt",
+    "idle": "Leerlauf"
+  },
+  "cards": {
+    "title": {
+      "ses": "PV-Anlage",
+      "ess": "Batterie",
+      "generator": "Generator",
+      "factory": "Unternehmen"
+    },
+    "gridTitle": "Netz {{n}}",
+    "footer": {
+      "produced": "Erzeuger",
+      "consumed": "Verbraucher",
+      "power": "Leistung"
+    }
+  },
+  "units": {
+    "kw": "kW",
+    "kwh": "kWh",
+    "percent": "%"
+  },
+  "blocks": {
+    "ses": "PV-Anlage",
+    "ess": "Batterie",
+    "generator": "Generator",
+    "grid": "Netz",
+    "factory": "Unternehmen"
+  },
+  "a11y": {
+    "energyFlowSvg": "Energieflüsse"
+  }
+}

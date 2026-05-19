@@ -1,0 +1,231 @@
+{
+  "common": {
+    "roles": {
+      "superUser": "Superużytkownik",
+      "user": "Użytkownik"
+    },
+    "labels": {
+      "email": "E-mail",
+      "fullName": "Imię i nazwisko",
+      "company": "Firma",
+      "status": "Status",
+      "description": "Opis",
+      "plantObjectId": "ID obiektu",
+      "location": "Lokalizacja",
+      "timezone": "Strefa czasowa",
+      "id": "ID"
+    },
+    "status": {
+      "active": "Aktywny",
+      "inactive": "Nieaktywny",
+      "na": "Brak danych"
+    },
+    "actions": {
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "add": "Dodaj",
+      "cancel": "Anuluj",
+      "save": "Zapisz",
+      "saveChanges": "Zapisz zmiany"
+    },
+    "a11y": {
+      "showPassword": "Pokaż hasło",
+      "hidePassword": "Ukryj hasło",
+      "increment": "Zwiększ",
+      "decrement": "Zmniejsz"
+    },
+    "placeholders": {
+      "selectCompanyLoading": "Ładowanie firm…",
+      "selectCompany": "Wybierz firmę",
+      "emailExample": "name@company.com",
+      "fullName": "Wpisz imię i nazwisko",
+      "password": "Wpisz hasło",
+      "repeatPassword": "Powtórz hasło",
+      "leaveEmptyToKeep": "Pozostaw puste, aby nie zmieniać",
+      "repeatNewPassword": "Powtórz nowe hasło",
+      "examplePlantIdNumber": "np. 2500",
+      "latitude": "Szerokość geograficzna",
+      "longitude": "Długość geograficzna",
+      "timezoneExample": "np. Europe/Kyiv",
+      "textLine1": "Wiersz 1",
+      "textLine2": "Wiersz 2",
+      "tabConfigJsonOptional": "JSON konfiguracji zakładek (opcjonalnie)"
+    },
+    "pagination": {
+      "itemsPerPage": "Elementów na stronie:",
+      "itemsShort": "Elementy:"
+    },
+    "errors": {
+      "errorPrefix": "Błąd:",
+      "genericWithMessage": "Błąd: {{message}}",
+      "accessDenied": "Brak dostępu.",
+      "failedToFetchPlants": "Nie udało się pobrać obiektów"
+    }
+  },
+  "validation": {
+    "required": {
+      "selectCompany": "Wybierz firmę",
+      "email": "E-mail jest wymagany",
+      "password": "Hasło jest wymagane",
+      "confirmPassword": "Potwierdź hasło",
+      "tenantName": "Nazwa jest wymagana"
+    },
+    "invalid": {
+      "email": "Nieprawidłowy adres e-mail"
+    },
+    "minLength": {
+      "password8": "Hasło musi mieć co najmniej 8 znaków"
+    },
+    "maxLength": {
+      "tenantName255": "Nie więcej niż 255 znaków",
+      "tenantDescription1024": "Nie więcej niż 1024 znaki"
+    },
+    "mismatch": {
+      "passwords": "Hasła nie są zgodne"
+    },
+    "number": {
+      "positive": "Musi być liczbą dodatnią"
+    }
+  },
+  "toasts": {
+    "user": {
+      "created": "Użytkownik został pomyślnie utworzony.",
+      "updated": "Użytkownik został pomyślnie zaktualizowany.",
+      "deleted": "Użytkownik został pomyślnie usunięty.",
+      "deleteError": "Wystąpił błąd podczas usuwania użytkownika"
+    },
+    "tenant": {
+      "created": "Firma została pomyślnie utworzona.",
+      "updated": "Firma została pomyślnie zaktualizowana.",
+      "deletedWithName": "Firma \"{{name}}\" została pomyślnie usunięta.",
+      "deleteError": "Wystąpił błąd podczas usuwania firmy"
+    },
+    "plant": {
+      "created": "Obiekt został pomyślnie utworzony.",
+      "updated": "Obiekt został pomyślnie zaktualizowany.",
+      "deleted": "Obiekt został pomyślnie usunięty.",
+      "deleteError": "Wystąpił błąd podczas usuwania obiektu"
+    }
+  },
+  "modals": {
+    "user": {
+      "add": {
+        "title": "Dodaj użytkownika",
+        "description": "Wypełnij poniższy formularz, aby dodać nowego użytkownika do systemu."
+      },
+      "edit": {
+        "trigger": "Edytuj użytkownika",
+        "title": "Edytuj użytkownika",
+        "description": "Zaktualizuj poniżej dane użytkownika."
+      },
+      "delete": {
+        "trigger": "Usuń użytkownika",
+        "title": "Usuń użytkownika",
+        "description": {
+          "beforeStrong": "Wszystkie dane powiązane z tym użytkownikiem zostaną również ",
+          "strong": "trwale usunięte.",
+          "afterStrong": " Czy na pewno? Tej akcji nie można cofnąć."
+        }
+      }
+    },
+    "tenant": {
+      "add": {
+        "title": "Dodaj firmę",
+        "description": "Wypełnij poniższy formularz, aby dodać nową firmę do systemu."
+      },
+      "edit": {
+        "trigger": "Edytuj firmę",
+        "title": "Edytuj firmę",
+        "description": "Zaktualizuj poniżej dane firmy."
+      },
+      "delete": {
+        "trigger": "Usuń firmę",
+        "title": "Usuń firmę",
+        "description": {
+          "beforeName": "Wszyscy użytkownicy i dane powiązane z firmą ",
+          "afterName": " zostaną również ",
+          "strong": "trwale usunięte.",
+          "afterStrong": " Czy na pewno? Tej akcji nie można cofnąć."
+        }
+      }
+    },
+    "plant": {
+      "add": {
+        "title": "Dodaj obiekt",
+        "description": "Wypełnij poniższy formularz, aby dodać nowy obiekt do systemu.",
+        "requiredFieldsError": "Podaj ID obiektu oraz strefę czasową.",
+        "createErrorFallback": "Nie udało się utworzyć obiektu"
+      },
+      "edit": {
+        "title": "Edytuj obiekt",
+        "description": "Zaktualizuj poniżej dane obiektu.",
+        "updateErrorFallback": "Nie udało się zaktualizować obiektu"
+      },
+      "delete": {
+        "trigger": "Usuń stację",
+        "title": "Usuń stację",
+        "description": {
+          "beforePlantId": "Czy na pewno chcesz usunąć stację ",
+          "afterPlantId": "? Tej akcji nie można cofnąć."
+        },
+        "deleteErrorFallback": "Nie udało się usunąć stacji"
+      }
+    }
+  },
+  "fields": {
+    "user": {
+      "labels": {
+        "password": "Hasło",
+        "newPassword": "Nowe hasło",
+        "confirmPassword": "Potwierdź hasło",
+        "confirmNewPassword": "Potwierdź nowe hasło",
+        "superUser": "Superużytkownik",
+        "active": "Aktywny",
+        "activeWithDefaultYes": "Aktywny? (Domyślnie: Tak)"
+      },
+      "errors": {
+        "failedToLoadCompanies": "Nie udało się załadować firm."
+      }
+    },
+    "tenant": {
+      "labels": {
+        "name": "Nazwa",
+        "description": "Opis"
+      },
+      "placeholders": {
+        "name": "Nazwa firmy",
+        "description": "Opis firmy"
+      }
+    },
+    "plant": {
+      "labels": {
+        "latitude": "Szerokość geograficzna",
+        "longitude": "Długość geograficzna",
+        "textLine1": "Tekst (wiersz 1)",
+        "textLine2": "Tekst (wiersz 2)",
+        "tabConfig": "Konfiguracja zakładek"
+      }
+    }
+  },
+  "admin": {
+    "title": "Zarządzanie użytkownikami",
+    "summary": {
+      "totalUsers": "Łącznie użytkowników: {{count}}"
+    },
+    "errors": {
+      "loadUsersWithMessage": "Błąd ładowania użytkowników: {{message}}"
+    }
+  },
+  "tenant": {
+    "title": "Zarządzanie firmami",
+    "summary": {
+      "totalTenants": "Łącznie firm: {{count}}"
+    }
+  },
+  "plantManagement": {
+    "title": "Zarządzanie obiektami",
+    "summary": {
+      "totalPlants": "Łącznie obiektów: {{count}}"
+    }
+  }
+}

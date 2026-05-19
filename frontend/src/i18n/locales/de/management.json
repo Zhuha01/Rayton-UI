@@ -1,0 +1,231 @@
+{
+  "common": {
+    "roles": {
+      "superUser": "Superuser",
+      "user": "Benutzer"
+    },
+    "labels": {
+      "email": "E-Mail",
+      "fullName": "Vollständiger Name",
+      "company": "Unternehmen",
+      "status": "Status",
+      "description": "Beschreibung",
+      "plantObjectId": "Anlagen-ID",
+      "location": "Standort",
+      "timezone": "Zeitzone",
+      "id": "ID"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "na": "k. A."
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "add": "Hinzufügen",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "saveChanges": "Änderungen speichern"
+    },
+    "a11y": {
+      "showPassword": "Passwort anzeigen",
+      "hidePassword": "Passwort verbergen",
+      "increment": "Erhöhen",
+      "decrement": "Verringern"
+    },
+    "placeholders": {
+      "selectCompanyLoading": "Unternehmen werden geladen…",
+      "selectCompany": "Unternehmen auswählen",
+      "emailExample": "name@company.com",
+      "fullName": "Vollständigen Namen eingeben",
+      "password": "Passwort eingeben",
+      "repeatPassword": "Passwort wiederholen",
+      "leaveEmptyToKeep": "Leer lassen, um nicht zu ändern",
+      "repeatNewPassword": "Neues Passwort wiederholen",
+      "examplePlantIdNumber": "z. B. 2500",
+      "latitude": "Breitengrad",
+      "longitude": "Längengrad",
+      "timezoneExample": "z. B. Europe/Kyiv",
+      "textLine1": "Zeile 1",
+      "textLine2": "Zeile 2",
+      "tabConfigJsonOptional": "Tab-Konfiguration JSON (optional)"
+    },
+    "pagination": {
+      "itemsPerPage": "Elemente pro Seite:",
+      "itemsShort": "Elemente:"
+    },
+    "errors": {
+      "errorPrefix": "Fehler:",
+      "genericWithMessage": "Fehler: {{message}}",
+      "accessDenied": "Zugriff verweigert.",
+      "failedToFetchPlants": "Anlagen konnten nicht geladen werden"
+    }
+  },
+  "validation": {
+    "required": {
+      "selectCompany": "Unternehmen auswählen",
+      "email": "E-Mail ist erforderlich",
+      "password": "Passwort ist erforderlich",
+      "confirmPassword": "Passwort bestätigen",
+      "tenantName": "Name ist erforderlich"
+    },
+    "invalid": {
+      "email": "Ungültige E-Mail-Adresse"
+    },
+    "minLength": {
+      "password8": "Das Passwort muss mindestens 8 Zeichen lang sein"
+    },
+    "maxLength": {
+      "tenantName255": "Nicht mehr als 255 Zeichen",
+      "tenantDescription1024": "Nicht mehr als 1024 Zeichen"
+    },
+    "mismatch": {
+      "passwords": "Passwörter stimmen nicht überein"
+    },
+    "number": {
+      "positive": "Muss eine positive Zahl sein"
+    }
+  },
+  "toasts": {
+    "user": {
+      "created": "Benutzer wurde erfolgreich erstellt.",
+      "updated": "Benutzer wurde erfolgreich aktualisiert.",
+      "deleted": "Benutzer wurde erfolgreich gelöscht.",
+      "deleteError": "Beim Löschen des Benutzers ist ein Fehler aufgetreten"
+    },
+    "tenant": {
+      "created": "Unternehmen wurde erfolgreich erstellt.",
+      "updated": "Unternehmen wurde erfolgreich aktualisiert.",
+      "deletedWithName": "Unternehmen \"{{name}}\" wurde erfolgreich gelöscht.",
+      "deleteError": "Beim Löschen des Unternehmens ist ein Fehler aufgetreten"
+    },
+    "plant": {
+      "created": "Anlage wurde erfolgreich erstellt.",
+      "updated": "Anlage wurde erfolgreich aktualisiert.",
+      "deleted": "Anlage wurde erfolgreich gelöscht.",
+      "deleteError": "Beim Löschen der Anlage ist ein Fehler aufgetreten"
+    }
+  },
+  "modals": {
+    "user": {
+      "add": {
+        "title": "Benutzer hinzufügen",
+        "description": "Füllen Sie das folgende Formular aus, um einen neuen Benutzer zum System hinzuzufügen."
+      },
+      "edit": {
+        "trigger": "Benutzer bearbeiten",
+        "title": "Benutzer bearbeiten",
+        "description": "Aktualisieren Sie unten die Benutzerdaten."
+      },
+      "delete": {
+        "trigger": "Benutzer löschen",
+        "title": "Benutzer löschen",
+        "description": {
+          "beforeStrong": "Alle Daten, die mit diesem Benutzer verbunden sind, werden ebenfalls ",
+          "strong": "dauerhaft gelöscht.",
+          "afterStrong": " Sind Sie sicher? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
+    "tenant": {
+      "add": {
+        "title": "Unternehmen hinzufügen",
+        "description": "Füllen Sie das folgende Formular aus, um ein neues Unternehmen zum System hinzuzufügen."
+      },
+      "edit": {
+        "trigger": "Unternehmen bearbeiten",
+        "title": "Unternehmen bearbeiten",
+        "description": "Aktualisieren Sie unten die Unternehmensdaten."
+      },
+      "delete": {
+        "trigger": "Unternehmen löschen",
+        "title": "Unternehmen löschen",
+        "description": {
+          "beforeName": "Alle Benutzer und Daten, die mit dem Unternehmen ",
+          "afterName": " verbunden sind, werden ebenfalls ",
+          "strong": "dauerhaft gelöscht.",
+          "afterStrong": " Sind Sie sicher? Diese Aktion kann nicht rückgängig gemacht werden."
+        }
+      }
+    },
+    "plant": {
+      "add": {
+        "title": "Anlage hinzufügen",
+        "description": "Füllen Sie das folgende Formular aus, um eine neue Anlage zum System hinzuzufügen.",
+        "requiredFieldsError": "Bitte geben Sie die Anlagen-ID und die Zeitzone an.",
+        "createErrorFallback": "Anlage konnte nicht erstellt werden"
+      },
+      "edit": {
+        "title": "Anlage bearbeiten",
+        "description": "Aktualisieren Sie unten die Anlagendaten.",
+        "updateErrorFallback": "Anlage konnte nicht aktualisiert werden"
+      },
+      "delete": {
+        "trigger": "Station löschen",
+        "title": "Station löschen",
+        "description": {
+          "beforePlantId": "Möchten Sie die Station ",
+          "afterPlantId": " wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
+        },
+        "deleteErrorFallback": "Station konnte nicht gelöscht werden"
+      }
+    }
+  },
+  "fields": {
+    "user": {
+      "labels": {
+        "password": "Passwort",
+        "newPassword": "Neues Passwort",
+        "confirmPassword": "Passwort bestätigen",
+        "confirmNewPassword": "Neues Passwort bestätigen",
+        "superUser": "Superuser",
+        "active": "Aktiv",
+        "activeWithDefaultYes": "Aktiv? (Standard: Ja)"
+      },
+      "errors": {
+        "failedToLoadCompanies": "Unternehmen konnten nicht geladen werden."
+      }
+    },
+    "tenant": {
+      "labels": {
+        "name": "Name",
+        "description": "Beschreibung"
+      },
+      "placeholders": {
+        "name": "Unternehmensname",
+        "description": "Unternehmensbeschreibung"
+      }
+    },
+    "plant": {
+      "labels": {
+        "latitude": "Breitengrad",
+        "longitude": "Längengrad",
+        "textLine1": "Text (Zeile 1)",
+        "textLine2": "Text (Zeile 2)",
+        "tabConfig": "Tab-Konfiguration"
+      }
+    }
+  },
+  "admin": {
+    "title": "Benutzerverwaltung",
+    "summary": {
+      "totalUsers": "Benutzer insgesamt: {{count}}"
+    },
+    "errors": {
+      "loadUsersWithMessage": "Benutzer konnten nicht geladen werden: {{message}}"
+    }
+  },
+  "tenant": {
+    "title": "Unternehmensverwaltung",
+    "summary": {
+      "totalTenants": "Unternehmen insgesamt: {{count}}"
+    }
+  },
+  "plantManagement": {
+    "title": "Anlagenverwaltung",
+    "summary": {
+      "totalPlants": "Anlagen insgesamt: {{count}}"
+    }
+  }
+}

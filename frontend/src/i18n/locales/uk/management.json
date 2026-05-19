@@ -1,0 +1,231 @@
+{
+  "common": {
+    "roles": {
+      "superUser": "Суперкористувач",
+      "user": "Користувач"
+    },
+    "labels": {
+      "email": "Електронна пошта",
+      "fullName": "ПІП",
+      "company": "Компанія",
+      "status": "Статус",
+      "description": "Опис",
+      "plantObjectId": "ID об'єкта",
+      "location": "Локація",
+      "timezone": "Часовий пояс",
+      "id": "ID"
+    },
+    "status": {
+      "active": "Активний",
+      "inactive": "Неактивний",
+      "na": "Н/Д"
+    },
+    "actions": {
+      "edit": "Редагувати",
+      "delete": "Видалити",
+      "add": "Додати",
+      "cancel": "Скасувати",
+      "save": "Зберегти",
+      "saveChanges": "Зберегти зміни"
+    },
+    "a11y": {
+      "showPassword": "Показати пароль",
+      "hidePassword": "Приховати пароль",
+      "increment": "Збільшити",
+      "decrement": "Зменшити"
+    },
+    "placeholders": {
+      "selectCompanyLoading": "Завантаження компаній…",
+      "selectCompany": "Виберіть компанію",
+      "emailExample": "name@company.com",
+      "fullName": "Введіть повне ім’я",
+      "password": "Введіть пароль",
+      "repeatPassword": "Повторіть пароль",
+      "leaveEmptyToKeep": "Залиште порожнім, щоб не змінювати",
+      "repeatNewPassword": "Повторіть новий пароль",
+      "examplePlantIdNumber": "наприклад, 2500",
+      "latitude": "Широта",
+      "longitude": "Довгота",
+      "timezoneExample": "наприклад, Europe/Kyiv",
+      "textLine1": "Рядок 1",
+      "textLine2": "Рядок 2",
+      "tabConfigJsonOptional": "JSON конфігурації вкладок (необов'язково)"
+    },
+    "pagination": {
+      "itemsPerPage": "Елементів на сторінці:",
+      "itemsShort": "Елементів:"
+    },
+    "errors": {
+      "errorPrefix": "Помилка:",
+      "genericWithMessage": "Помилка: {{message}}",
+      "accessDenied": "Доступ заборонено.",
+      "failedToFetchPlants": "Не вдалося завантажити об'єкти"
+    }
+  },
+  "validation": {
+    "required": {
+      "selectCompany": "Оберіть компанію",
+      "email": "Email обов'язковий",
+      "password": "Пароль обов'язковий",
+      "confirmPassword": "Підтвердіть пароль",
+      "tenantName": "Назва обов'язкова"
+    },
+    "invalid": {
+      "email": "Некоректна адреса електронної пошти"
+    },
+    "minLength": {
+      "password8": "Пароль має містити щонайменше 8 символів"
+    },
+    "maxLength": {
+      "tenantName255": "Не більше 255 символів",
+      "tenantDescription1024": "Не більше 1024 символів"
+    },
+    "mismatch": {
+      "passwords": "Паролі не збігаються"
+    },
+    "number": {
+      "positive": "Має бути додатним числом"
+    }
+  },
+  "toasts": {
+    "user": {
+      "created": "Користувача успішно створено.",
+      "updated": "Користувача успішно оновлено.",
+      "deleted": "Користувача успішно видалено.",
+      "deleteError": "Сталася помилка під час видалення користувача"
+    },
+    "tenant": {
+      "created": "Компанію успішно створено.",
+      "updated": "Компанію успішно оновлено.",
+      "deletedWithName": "Компанію \"{{name}}\" успішно видалено.",
+      "deleteError": "Сталася помилка під час видалення компанії"
+    },
+    "plant": {
+      "created": "Об'єкт успішно створено.",
+      "updated": "Об'єкт успішно оновлено.",
+      "deleted": "Об'єкт успішно видалено.",
+      "deleteError": "Сталася помилка під час видалення об'єкта"
+    }
+  },
+  "modals": {
+    "user": {
+      "add": {
+        "title": "Додати користувача",
+        "description": "Заповніть форму нижче, щоб додати нового користувача до системи."
+      },
+      "edit": {
+        "trigger": "Редагувати користувача",
+        "title": "Редагувати користувача",
+        "description": "Оновіть дані користувача нижче."
+      },
+      "delete": {
+        "trigger": "Видалити користувача",
+        "title": "Видалити користувача",
+        "description": {
+          "beforeStrong": "Усі дані, пов’язані з цим користувачем, також буде ",
+          "strong": "безповоротно видалено.",
+          "afterStrong": " Ви впевнені? Цю дію неможливо скасувати."
+        }
+      }
+    },
+    "tenant": {
+      "add": {
+        "title": "Додати компанію",
+        "description": "Заповніть форму нижче, щоб додати нову компанію до системи."
+      },
+      "edit": {
+        "trigger": "Редагувати компанію",
+        "title": "Редагувати компанію",
+        "description": "Оновіть дані компанії нижче."
+      },
+      "delete": {
+        "trigger": "Видалити компанію",
+        "title": "Видалити компанію",
+        "description": {
+          "beforeName": "Усі користувачі та дані, пов’язані з компанією ",
+          "afterName": ", також буде ",
+          "strong": "безповоротно видалено.",
+          "afterStrong": " Ви впевнені? Цю дію неможливо скасувати."
+        }
+      }
+    },
+    "plant": {
+      "add": {
+        "title": "Додати об'єкт",
+        "description": "Заповніть форму нижче, щоб додати новий об'єкт до системи.",
+        "requiredFieldsError": "Обов'язково вкажіть ID об'єкта та часовий пояс.",
+        "createErrorFallback": "Не вдалося створити об'єкт"
+      },
+      "edit": {
+        "title": "Редагувати об'єкт",
+        "description": "Оновіть дані об'єкта нижче.",
+        "updateErrorFallback": "Не вдалося оновити об'єкт"
+      },
+      "delete": {
+        "trigger": "Видалити станцію",
+        "title": "Видалити станцію",
+        "description": {
+          "beforePlantId": "Ви впевнені, що хочете видалити станцію ",
+          "afterPlantId": "? Цю дію неможливо скасувати."
+        },
+        "deleteErrorFallback": "Не вдалося видалити станцію"
+      }
+    }
+  },
+  "fields": {
+    "user": {
+      "labels": {
+        "password": "Пароль",
+        "newPassword": "Новий пароль",
+        "confirmPassword": "Підтвердження пароля",
+        "confirmNewPassword": "Підтвердження нового пароля",
+        "superUser": "Суперкористувач",
+        "active": "Активний",
+        "activeWithDefaultYes": "Активний ? (За замовчуванням: Так)"
+      },
+      "errors": {
+        "failedToLoadCompanies": "Не вдалося завантажити компанії."
+      }
+    },
+    "tenant": {
+      "labels": {
+        "name": "Назва",
+        "description": "Опис"
+      },
+      "placeholders": {
+        "name": "Назва компанії",
+        "description": "Опис компанії"
+      }
+    },
+    "plant": {
+      "labels": {
+        "latitude": "Широта",
+        "longitude": "Довгота",
+        "textLine1": "Текст (рядок 1)",
+        "textLine2": "Текст (рядок 2)",
+        "tabConfig": "Конфігурація вкладок"
+      }
+    }
+  },
+  "admin": {
+    "title": "Керування користувачами",
+    "summary": {
+      "totalUsers": "Всього користувачів: {{count}}"
+    },
+    "errors": {
+      "loadUsersWithMessage": "Помилка завантаження користувачів: {{message}}"
+    }
+  },
+  "tenant": {
+    "title": "Керування компаніями",
+    "summary": {
+      "totalTenants": "Всього компаній: {{count}}"
+    }
+  },
+  "plantManagement": {
+    "title": "Керування об'єктами",
+    "summary": {
+      "totalPlants": "Всього об'єктів: {{count}}"
+    }
+  }
+}

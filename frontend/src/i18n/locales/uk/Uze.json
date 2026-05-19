@@ -1,0 +1,28 @@
+{
+    "common": {
+      "ess": "УЗЕ",
+      "essMonitoring": "Моніторинг установки збереження енергії",
+      "lastUpdated": "Дані оновлено: {{date}}",
+      "connectedDevices": "{{count}} підключених пристроїв",
+      "loadingDevices": "Завантаження пристроїв...",
+      "loadingData": "Завантаження даних...",
+      "loadError": "Помилка: {{message}}",
+      "loadErrorFallback": "Помилка при завантаженні даних",
+      "selectDevicePrompt": "Виберіть пристрій ліворуч, щоб побачити дані",
+      "device": "Пристрій",
+      "unnamed": "Без імені"
+    },
+    "table": {
+      "parameter": "Параметр",
+      "value": "Значення",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "meterPcs": "Лічильник PCS",
+      "tms": "TMS",
+      "other": "Інше",
+      "pcs": "PCS",
+      "cell": "CELL",
+      "bms": "BMS"
+    }
+  }

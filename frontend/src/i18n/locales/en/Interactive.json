@@ -1,0 +1,38 @@
+{
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "charging": "Charging",
+    "discharging": "Discharging",
+    "idle": "Idle"
+  },
+  "cards": {
+    "title": {
+      "ses": "Solar Plant",
+      "ess": "Energy Storage",
+      "generator": "Generator",
+      "factory": "Facility"
+    },
+    "gridTitle": "Grid {{n}}",
+    "footer": {
+      "produced": "Produced",
+      "consumed": "Consumed",
+      "power": "Power"
+    }
+  },
+  "units": {
+    "kw": "kW",
+    "kwh": "kWh",
+    "percent": "%"
+  },
+  "blocks": {
+    "ses": "Solar Plant",
+    "ess": "Energy Storage",
+    "generator": "Generator",
+    "grid": "Grid",
+    "factory": "Facility"
+  },
+  "a11y": {
+    "energyFlowSvg": "Energy flows"
+  }
+}

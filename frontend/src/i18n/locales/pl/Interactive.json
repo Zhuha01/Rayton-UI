@@ -1,0 +1,38 @@
+{
+  "status": {
+    "active": "Aktywny",
+    "inactive": "Nieaktywny",
+    "charging": "Ładowanie",
+    "discharging": "Rozładowanie",
+    "idle": "Bezczynny"
+  },
+  "cards": {
+    "title": {
+      "ses": "Instalacja PV",
+      "ess": "Akumulator",
+      "generator": "Generator",
+      "factory": "Zakład"
+    },
+    "gridTitle": "Sieć {{n}}",
+    "footer": {
+      "produced": "Produkcja",
+      "consumed": "Zużycie",
+      "power": "Moc"
+    }
+  },
+  "units": {
+    "kw": "kW",
+    "kwh": "kWh",
+    "percent": "%"
+  },
+  "blocks": {
+    "ses": "Instalacja PV",
+    "ess": "Akumulator",
+    "generator": "Generator",
+    "grid": "Sieć",
+    "factory": "Zakład"
+  },
+  "a11y": {
+    "energyFlowSvg": "Przepływy energii"
+  }
+}

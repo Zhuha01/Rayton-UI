@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "saveChanges": "Save changes",
+    "revert": "Revert"
+  },
+  "placeholder": {
+    "selectOption": "Select an option"
+  },
+  "status": {
+    "success": "Success",
+    "failed": "Failed",
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "a11y": {
+    "revertChange": "Revert change",
+    "incrementValue": "Increment value",
+    "decrementValue": "Decrement value"
+  },
+  "errors": {
+    "loadingSettingsPrefix": "Error loading settings:"
+  },
+  "labels": {
+    "dataWithId": "Data {{id}}"
+  },
+  "command": {
+    "sending": "Sending command…",
+    "noChangesToSave": "No changes to save",
+    "confirmed": "Command confirmed",
+    "failedWithError": "Command failed: {{error}}",
+    "unknownError": "Unknown error",
+    "failedTimeout": "Command failed (timeout)",
+    "sentAwaitingConfirmation": "Command sent, awaiting confirmation…",
+    "saved": "Changes saved",
+    "savedNoMsgId": "Changes saved (no msg_id)",
+    "failedToSend": "Command failed to send"
+  },
+  "toasts": {
+    "saveFailedTitle": "Save Failed",
+    "saveFailedFallbackDescription": "Could not save settings."
+  }
+}

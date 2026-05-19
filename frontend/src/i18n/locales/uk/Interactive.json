@@ -1,0 +1,38 @@
+{
+  "status": {
+    "active": "Увімкнений",
+    "inactive": "Вимкнений",
+    "charging": "Зарядка",
+    "discharging": "Розрядка",
+    "idle": "Не активний"
+  },
+  "cards": {
+    "title": {
+      "ses": "СЕС",
+      "ess": "УЗЕ",
+      "generator": "Генератор",
+      "factory": "Підприємство"
+    },
+    "gridTitle": "Мережа {{n}}",
+    "footer": {
+      "produced": "Генератор",
+      "consumed": "Споживач",
+      "power": "Потужність"
+    }
+  },
+  "units": {
+    "kw": "кВт",
+    "kwh": "кВт⋅год",
+    "percent": "%"
+  },
+  "blocks": {
+    "ses": "СЕС",
+    "ess": "УЗЕ",
+    "generator": "Генератор",
+    "grid": "Мережа",
+    "factory": "Підприємство"
+  },
+  "a11y": {
+    "energyFlowSvg": "Потоки енергії"
+  }
+}

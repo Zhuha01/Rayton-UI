@@ -1,0 +1,23 @@
+{
+  "titlePrefix": "Energy that shapes",
+  "titleHighlight": "the future",
+  "subtitle": "Rayton platform for monitoring, analyzing and optimizing industrial solar power plants performance.",
+  "emailLabel": "Email",
+  "emailPlaceholder": "name@company.com",
+  "passwordLabel": "Password",
+  "passwordPlaceholder": "••••••••",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "loginButton": "Log In",
+  "languageSwitcherLabel": "Change language",
+  "validation": {
+    "usernameRequired": "Email is required",
+    "invalidEmail": "Invalid email address",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 8 characters"
+  },
+  "errors": {
+    "generic": "Unable to complete login request."
+  },
+  "footer": "It is recommended to use the latest versions of Chrome and Firefox browsers. Optimal screen resolution: 1920*1080 pixels. © 2011-2025 Rayton Energy Technologies. All rights reserved. To access the mobile version of the platform, use the QR code. Privacy Policy | User Agreement | Cookie Policy"
+}

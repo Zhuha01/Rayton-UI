@@ -1,0 +1,30 @@
+{
+    "common": {
+      "ses": "СЕС",
+      "sesMonitoring": "Моніторинг системи сонячних електростанцій",
+      "lastUpdated": "Дані оновлено: {{date}}",
+      "connectedDevices": "{{count}} підключених пристроїв",
+      "loadingDevices": "Завантаження пристроїв...",
+      "loadingData": "Завантаження даних...",
+      "loadError": "Помилка: {{message}}",
+      "loadErrorFallback": "Помилка при завантаженні даних",
+      "selectDevicePrompt": "Виберіть пристрій ліворуч, щоб побачити дані",
+      "device": "Пристрій",
+      "unnamed": "Без імені"
+    },
+    "table": {
+      "parameter": "Параметр",
+      "value": "Значення",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "smartLogger": "Смарт Логгер",
+      "inverter": "Інвертор",
+      "meter": "Лічильник",
+      "mainGridMeter": "Лічильник основної мережі",
+      "backupGridMeter": "Лічильник резервної мережі/генератору",
+      "gridMeter": "Лічильник з мережі",
+      "genMeter": "Лічильник генератору",
+      "other": "Інше"
+    }
+  }

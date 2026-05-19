@@ -1,0 +1,63 @@
+{
+  "timeRange": {
+    "1D": "День",
+    "1W": "Тиждень",
+    "1M": "Місяць",
+    "1Y": "Рік",
+    "All": "Всі"
+  },
+  "toolbar": {
+    "zoom": "ЗУМ",
+    "resetZoom": "Скинути зум",
+    "export": "Експорт",
+    "exportCsv": "Експорт CSV",
+    "exportXlsx": "Експорт XLSX",
+    "exportPng": "Експорт PNG",
+    "exportErrorPng": "Помилка експорту PNG",
+    "exportError": "Помилка експорту",
+    "exportSuccess": "Експорт успішний",
+    "noData": "Немає даних"
+  },
+  "calendar": {
+    "today": "Сьогодні",
+    "prev": "Попередня",
+    "next": "Наступна",
+    "prevMonth": "Попередній місяць",
+    "nextMonth": "Наступний місяць",
+    "weekdaysShort": ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
+  },
+  "rangeHint": {
+    "1W": { "current": "Поточний тиждень", "last": "Останні 7 днів" },
+    "1M": { "current": "Поточний місяць", "last": "Останні 30 днів" },
+    "1Y": { "current": "Поточний рік", "last": "Останні 12 місяців" }
+  },
+  "chartControls": {
+    "expandCharts": "Розширення графіків",
+    "collapseCharts": "Згорнути графіки",
+    "socCombined": "Комбінований дисплей SOC"
+  },
+  "axis": {
+    "power": "Потужність,{{unit}}",
+    "chargePct": "Заряд,%",
+    "powerSocCombined": "Потужність,{{unit}} / SOC,%",
+    "energy": "Енергія,{{unit}}",
+    "yearWithUnit": "Рік {{year}}, {{unit}}"
+  },
+  "battery": {
+    "title": "Рівень заряду батареї (SOC), %"
+  },
+  "legend": {
+    "SOLAR_GENERATION": "Генерація СЕС",
+    "PLANT_CONSUMPTION": "Споживання підприємства",
+    "GRID_1": "Споживання з мережі 1",
+    "GRID_2": "Споживання з мережі 2",
+    "GRID_3": "Споживання з мережі 3",
+    "GRID_4": "Споживання з мережі 4",
+    "ESS_POWER": "Потужність УЗЕ",
+    "ESS_SOC": "SOC батареї",
+    "GENERATOR_POWER": "Генератор",
+    "ESS_CHARGE_FROM_PV": "Заряд УЗЕ з СЕС",
+    "ESS_CHARGE_TOTAL": "Заряд (усього)",
+    "ESS_DISCHARGE_TOTAL": "Розряд (усього)"
+  }
+}

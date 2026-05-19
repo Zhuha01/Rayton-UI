@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Benutzereinstellungen",
+  "sections": {
+    "personal": "Persönliche Angaben",
+    "security": "Sicherheit"
+  },
+  "fields": {
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "organization": "Organisation",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Passwort bestätigen"
+  },
+  "placeholders": {
+    "fullName": "Vollständigen Namen eingeben",
+    "email": "E-Mail eingeben",
+    "tenantLoading": "Wird geladen…",
+    "tenantUndefined": "Nicht festgelegt",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort eingeben",
+    "confirmPassword": "Neues Passwort bestätigen"
+  },
+  "validation": {
+    "emailRequired": "E-Mail ist erforderlich",
+    "passwordFieldsRequired": "Alle Passwortfelder ausfüllen",
+    "passwordMinLength": "Passwort muss mindestens 8 Zeichen haben",
+    "passwordMismatch": "Passwörter stimmen nicht überein"
+  },
+  "toast": {
+    "settingsSaved": "Einstellungen gespeichert",
+    "accountDeleted": "Ihr Konto wurde erfolgreich gelöscht"
+  },
+  "actions": {
+    "cancel": "Abbrechen",
+    "saveSettings": "Einstellungen speichern"
+  },
+  "deleteAccount": {
+    "heading": "Konto löschen",
+    "description": "Löscht Ihre Daten und alles, was mit diesem Konto verbunden ist, dauerhaft.",
+    "buttonDelete": "Löschen",
+    "dialogTitle": "Bestätigung erforderlich",
+    "dialogBody": "Alle Daten Ihres Kontos werden unwiderruflich gelöscht. Wenn Sie sicher sind, klicken Sie auf „Bestätigen“. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "dialogCancel": "Abbrechen",
+    "dialogConfirm": "Löschen"
+  }
+}

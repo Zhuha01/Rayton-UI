@@ -1,0 +1,8 @@
+{
+  "title": "404",
+  "heading": "Hoppla!",
+  "description": "Die gesuchte Seite wurde nicht gefunden.",
+  "actions": {
+    "goBack": "Zurück"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "pageTitle": "Налаштування користувача",
+  "sections": {
+    "personal": "Особиста інформація",
+    "security": "Безпека"
+  },
+  "fields": {
+    "fullName": "Повне ім'я",
+    "email": "Email адреса",
+    "organization": "Організація",
+    "currentPassword": "Поточний пароль",
+    "newPassword": "Новий пароль",
+    "confirmPassword": "Підтвердіть пароль"
+  },
+  "placeholders": {
+    "fullName": "Введіть повне ім'я",
+    "email": "Введіть email",
+    "tenantLoading": "Завантаження...",
+    "tenantUndefined": "Не визначено",
+    "currentPassword": "Поточний пароль",
+    "newPassword": "Введіть новий пароль",
+    "confirmPassword": "Підтвердіть новий пароль"
+  },
+  "validation": {
+    "emailRequired": "Email обов'язковий",
+    "passwordFieldsRequired": "Заповніть усі поля паролю",
+    "passwordMinLength": "Пароль має містити мінімум 8 символів",
+    "passwordMismatch": "Паролі не співпадають"
+  },
+  "toast": {
+    "settingsSaved": "Налаштування збережено",
+    "accountDeleted": "Ваш обліковий запис успішно видалено"
+  },
+  "actions": {
+    "cancel": "Скасувати",
+    "saveSettings": "Зберегти налаштування"
+  },
+  "deleteAccount": {
+    "heading": "Видалити обліковий запис",
+    "description": "Назавжди видалити ваші дані та все, що пов’язане з обліковим записом.",
+    "buttonDelete": "Видалити",
+    "dialogTitle": "Потрібне підтвердження",
+    "dialogBody": "Усі дані вашого облікового запису будуть назавжди видалені. Якщо ви впевнені, натисніть «Підтвердити». Цю дію неможливо скасувати.",
+    "dialogCancel": "Скасувати",
+    "dialogConfirm": "Видалити"
+  }
+}

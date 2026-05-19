@@ -1,0 +1,23 @@
+{
+  "titlePrefix": "Energia, która kształtuje",
+  "titleHighlight": "przyszłość",
+  "subtitle": "Platforma Rayton do monitorowania, analizowania i optymalizacji przemysłowych elektrowni słonecznych.",
+  "emailLabel": "Adres e-mail",
+  "emailPlaceholder": "name@company.com",
+  "passwordLabel": "Hasło",
+  "passwordPlaceholder": "••••••••",
+  "rememberMe": "Zapamiętaj mnie",
+  "forgotPassword": "Zapomniałeś hasła?",
+  "loginButton": "Zaloguj się",
+  "languageSwitcherLabel": "Zmień język",
+  "validation": {
+    "usernameRequired": "Adres e-mail jest wymagany",
+    "invalidEmail": "Nieprawidłowy adres e-mail",
+    "passwordRequired": "Hasło jest wymagane",
+    "passwordMinLength": "Hasło musi mieć co najmniej 8 znaków"
+  },
+  "errors": {
+    "generic": "Nie udało się wykonać żądania logowania."
+  },
+  "footer": "Zaleca się korzystanie z najnowszych wersji przeglądarek Chrome i Firefox. Optymalna rozdzielczość ekranu to 1920*1080 pikseli. © 2011-2025 Rayton Energy Technologies. Wszelkie prawa zastrzeżone. Aby uzyskać dostęp do mobilnej wersji platformy, użyj kodu QR. Polityka prywatności | Umowa użytkownika | Polityka plików cookie"
+}

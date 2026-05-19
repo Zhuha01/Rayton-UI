@@ -1,0 +1,30 @@
+{
+    "common": {
+      "ses": "PV Plant",
+      "sesMonitoring": "Solar power plant system monitoring",
+      "lastUpdated": "Last updated: {{date}}",
+      "connectedDevices": "{{count}} connected devices",
+      "loadingDevices": "Loading devices...",
+      "loadingData": "Loading data...",
+      "loadError": "Error: {{message}}",
+      "loadErrorFallback": "Error loading data",
+      "selectDevicePrompt": "Select a device on the left to see data",
+      "device": "Device",
+      "unnamed": "Unnamed"
+    },
+    "table": {
+      "parameter": "Parameter",
+      "value": "Value",
+      "dataId": "Data ID"
+    },
+    "devices": {
+      "smartLogger": "SmartLogger",
+      "inverter": "Inverter",
+      "meter": "Meter",
+      "mainGridMeter": "Main grid meter",
+      "backupGridMeter": "Backup grid/generator meter",
+      "gridMeter": "Grid meter",
+      "genMeter": "Generator meter",
+      "other": "Other"
+    }
+  }

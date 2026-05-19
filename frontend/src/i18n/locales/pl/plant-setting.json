@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "saveChanges": "Zapisz zmiany",
+    "revert": "Cofnij"
+  },
+  "placeholder": {
+    "selectOption": "Wybierz opcję"
+  },
+  "status": {
+    "success": "Sukces",
+    "failed": "Niepowodzenie",
+    "enabled": "Włączone",
+    "disabled": "Wyłączone"
+  },
+  "a11y": {
+    "revertChange": "Cofnij zmianę",
+    "incrementValue": "Zwiększ wartość",
+    "decrementValue": "Zmniejsz wartość"
+  },
+  "errors": {
+    "loadingSettingsPrefix": "Błąd ładowania ustawień:"
+  },
+  "labels": {
+    "dataWithId": "Dane {{id}}"
+  },
+  "command": {
+    "sending": "Wysyłanie polecenia…",
+    "noChangesToSave": "Brak zmian do zapisania",
+    "confirmed": "Polecenie potwierdzone",
+    "failedWithError": "Polecenie nie powiodło się: {{error}}",
+    "unknownError": "Nieznany błąd",
+    "failedTimeout": "Polecenie nie powiodło się (przekroczono limit czasu)",
+    "sentAwaitingConfirmation": "Polecenie wysłane, oczekiwanie na potwierdzenie…",
+    "saved": "Zmiany zapisane",
+    "savedNoMsgId": "Zmiany zapisane (bez msg_id)",
+    "failedToSend": "Nie udało się wysłać polecenia"
+  },
+  "toasts": {
+    "saveFailedTitle": "Zapis nie powiódł się",
+    "saveFailedFallbackDescription": "Nie udało się zapisać ustawień."
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "common": {
+      "ses": "PV-Anlage",
+      "sesMonitoring": "Überwachung des Solarkraftwerksystems",
+      "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+      "connectedDevices": "{{count}} verbundene Geräte",
+      "loadingDevices": "Geräte werden geladen...",
+      "loadingData": "Daten werden geladen...",
+      "loadError": "Fehler: {{message}}",
+      "loadErrorFallback": "Fehler beim Laden der Daten",
+      "selectDevicePrompt": "Wählen Sie links ein Gerät aus, um Daten zu sehen",
+      "device": "Gerät",
+      "unnamed": "Ohne Namen"
+    },
+    "table": {
+      "parameter": "Parameter",
+      "value": "Wert",
+      "dataId": "Daten-ID"
+    },
+    "devices": {
+      "smartLogger": "SmartLogger",
+      "inverter": "Wechselrichter",
+      "meter": "Zähler",
+      "mainGridMeter": "Hauptnetzzähler",
+      "backupGridMeter": "Notstrom-/Generatorzähler",
+      "gridMeter": "Netzzähler",
+      "genMeter": "Generatorzähler",
+      "other": "Sonstiges"
+    }
+  }

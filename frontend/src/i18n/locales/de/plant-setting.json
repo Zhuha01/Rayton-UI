@@ -1,0 +1,42 @@
+{
+  "actions": {
+    "saveChanges": "Änderungen speichern",
+    "revert": "Zurücksetzen"
+  },
+  "placeholder": {
+    "selectOption": "Option auswählen"
+  },
+  "status": {
+    "success": "Erfolg",
+    "failed": "Fehlgeschlagen",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert"
+  },
+  "a11y": {
+    "revertChange": "Änderung zurücksetzen",
+    "incrementValue": "Wert erhöhen",
+    "decrementValue": "Wert verringern"
+  },
+  "errors": {
+    "loadingSettingsPrefix": "Fehler beim Laden der Einstellungen:"
+  },
+  "labels": {
+    "dataWithId": "Daten {{id}}"
+  },
+  "command": {
+    "sending": "Befehl wird gesendet…",
+    "noChangesToSave": "Keine Änderungen zum Speichern",
+    "confirmed": "Befehl bestätigt",
+    "failedWithError": "Befehl fehlgeschlagen: {{error}}",
+    "unknownError": "Unbekannter Fehler",
+    "failedTimeout": "Befehl fehlgeschlagen (Zeitüberschreitung)",
+    "sentAwaitingConfirmation": "Befehl gesendet, warte auf Bestätigung…",
+    "saved": "Änderungen gespeichert",
+    "savedNoMsgId": "Änderungen gespeichert (ohne msg_id)",
+    "failedToSend": "Befehl konnte nicht gesendet werden"
+  },
+  "toasts": {
+    "saveFailedTitle": "Speichern fehlgeschlagen",
+    "saveFailedFallbackDescription": "Einstellungen konnten nicht gespeichert werden."
+  }
+}

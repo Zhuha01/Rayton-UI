@@ -1,0 +1,46 @@
+{
+  "statusCard": {
+    "currentModeCaption": "Current operating mode (BESS)"
+  },
+  "management": {
+    "automation": "Automation",
+    "modePlaceholder": "Smart charge–discharge",
+    "pick": "Apply",
+    "picked": "Applied"
+  },
+  "actions": {
+    "start": "Start",
+    "stop": "Stop"
+  },
+  "toasts": {
+    "commandTimeoutTitle": "Command timeout",
+    "commandTimeoutDescription": "No response from the device for command {{messageId}}.",
+    "updateFailedTitle": "Update failed",
+    "updateFailedDescription": "Could not send the command."
+  },
+  "errors": {
+    "loadFailed": "Error loading data: {{message}}"
+  },
+  "indicators": {
+    "title": "Diagnostic panel",
+    "fallbackLabel": "Status {{id}}",
+    "filterAll": "All",
+    "filterActive": "Active",
+    "filterInactive": "Inactive",
+    "emptyFilter": "No entries for the selected filter"
+  },
+  "commandState": {
+    "sending": "Sending…",
+    "sent": "Sent",
+    "saved": "Saved",
+    "changesSaved": "Changes saved",
+    "failed": "Failed",
+    "timeoutMessage": "Timeout: no response from device"
+  },
+  "schematic": {
+    "title": "Switch status mnemonic",
+    "openInNewTab": "Open schematic in a new tab",
+    "openLabel": "Open",
+    "pdfFallback": "PDF preview is not available."
+  }
+}

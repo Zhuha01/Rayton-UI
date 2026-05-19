@@ -1,0 +1,49 @@
+// Файл для удобного запуску дебагу (виключно для тестування)
+// ВИДАЛИТИ ЦЕЙ ФАЙЛ ПРИ ПЕРЕДАЧІ
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "backend-dev",
+      "type": "shell",
+      "command": "./venv/Scripts/python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": [{ "regexp": ".*" }],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*Started reloader process.*|.*Uvicorn running on.*",
+          "endsPattern": ".*Application startup complete.*|.*Uvicorn running on http://0.0.0.0:8000.*"
+        }
+      }
+    },
+    {
+      "label": "frontend-dev",
+      "type": "shell",
+      "command": "npm run dev -- --host",
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": [{ "regexp": ".*" }],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*vite.*",
+          "endsPattern": ".*Network:.*http://.*:5173/.*"
+        }
+      }
+    },
+    {
+      "label": "dev-all",
+      "dependsOn": ["backend-dev", "frontend-dev"],
+      "dependsOrder": "parallel"
+    }
+  ]
+}

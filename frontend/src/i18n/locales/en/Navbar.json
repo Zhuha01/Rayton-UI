@@ -1,0 +1,11 @@
+{
+  "home": "Home",
+  "schedule": "Schedule",
+  "ses": "PV System",
+  "storage": "ESS",
+  "management": "Management",
+  "settings": "Settings",
+  "user": "USER",
+  "profile": "Profile",
+  "logout": "Log out"
+}

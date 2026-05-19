@@ -1,0 +1,28 @@
+{
+    "common": {
+      "ess": "BESS",
+      "essMonitoring": "Monitoring des Energiespeichersystems",
+      "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+      "connectedDevices": "{{count}} verbundene Geräte",
+      "loadingDevices": "Geräte werden geladen...",
+      "loadingData": "Daten werden geladen...",
+      "loadError": "Fehler: {{message}}",
+      "loadErrorFallback": "Fehler beim Laden der Daten",
+      "selectDevicePrompt": "Wählen Sie links ein Gerät aus, um Daten zu sehen",
+      "device": "Gerät",
+      "unnamed": "Ohne Namen"
+    },
+    "table": {
+      "parameter": "Parameter",
+      "value": "Wert",
+      "dataId": "Daten-ID"
+    },
+    "devices": {
+      "meterPcs": "PCS-Zähler",
+      "tms": "TMS",
+      "other": "Sonstiges",
+      "pcs": "PCS",
+      "cell": "CELL",
+      "bms": "BMS"
+    }
+  }
