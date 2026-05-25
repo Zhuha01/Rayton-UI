@@ -594,11 +594,11 @@ export const PlcDataSettingsExtendedRowSchema = {
 
 export const PlcDataSettingsUpdateSchema = {
     properties: {
-        id: {
+        ID: {
             type: 'integer',
             title: 'Id'
         },
-        data: {
+        DATA: {
             anyOf: [
                 {
                     type: 'number'
@@ -609,7 +609,7 @@ export const PlcDataSettingsUpdateSchema = {
             ],
             title: 'Data'
         },
-        updated_by: {
+        UPDATED_BY: {
             anyOf: [
                 {
                     type: 'string'
@@ -622,7 +622,7 @@ export const PlcDataSettingsUpdateSchema = {
         }
     },
     type: 'object',
-    required: ['id'],
+    required: ['ID'],
     title: 'PlcDataSettingsUpdate'
 } as const;
 
@@ -727,7 +727,61 @@ export const RevenueDataSchema = {
     title: 'RevenueData'
 } as const;
 
-export const ScheduleRowSchema = {
+export const ScheduleRow_InputSchema = {
+    properties: {
+        REC_NO: {
+            type: 'integer',
+            title: 'Rec No'
+        },
+        START_TIME: {
+            type: 'string',
+            format: 'time',
+            title: 'Start Time'
+        },
+        CHARGE_FROM_GRID: {
+            type: 'boolean',
+            title: 'Charge From Grid'
+        },
+        ALLOW_TO_SELL: {
+            type: 'boolean',
+            title: 'Allow To Sell'
+        },
+        CHARGE_POWER: {
+            type: 'number',
+            title: 'Charge Power'
+        },
+        CHARGE_LIMIT: {
+            type: 'number',
+            title: 'Charge Limit'
+        },
+        DISCHARGE_POWER: {
+            type: 'number',
+            title: 'Discharge Power'
+        },
+        SOURCE: {
+            type: 'integer',
+            title: 'Source'
+        },
+        ID: {
+            type: 'integer',
+            title: 'Id'
+        },
+        UPDATED_AT: {
+            type: 'string',
+            format: 'date-time',
+            title: 'Updated At'
+        },
+        UPDATED_BY: {
+            type: 'string',
+            title: 'Updated By'
+        }
+    },
+    type: 'object',
+    required: ['REC_NO', 'START_TIME', 'CHARGE_FROM_GRID', 'ALLOW_TO_SELL', 'CHARGE_POWER', 'CHARGE_LIMIT', 'DISCHARGE_POWER', 'SOURCE', 'ID', 'UPDATED_AT', 'UPDATED_BY'],
+    title: 'ScheduleRow'
+} as const;
+
+export const ScheduleRow_OutputSchema = {
     properties: {
         rec_no: {
             type: 'integer',

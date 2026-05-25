@@ -580,7 +580,7 @@ export class ScheduleService {
      * @param data The data for the request.
      * @param data.tenantId Tenant ID to fetch schedule for
      * @param data.date Date (YYYY-MM-DD)
-     * @returns ScheduleRow Successful Response
+     * @returns ScheduleRow_Output Successful Response
      * @throws ApiError
      */
     public static readSchedule(data: ScheduleReadScheduleData): CancelablePromise<ScheduleReadScheduleResponse> {

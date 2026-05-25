@@ -124,9 +124,9 @@ export type PlcDataSettingsExtendedRow = {
 };
 
 export type PlcDataSettingsUpdate = {
-    id: number;
-    data?: (number | null);
-    updated_by?: (string | null);
+    ID: number;
+    DATA?: (number | null);
+    UPDATED_BY?: (string | null);
 };
 
 export type PrivateUserCreateInput = {
@@ -153,7 +153,21 @@ export type RevenueData = {
     revenue: number;
 };
 
-export type ScheduleRow = {
+export type ScheduleRow_Input = {
+    REC_NO: number;
+    START_TIME: string;
+    CHARGE_FROM_GRID: boolean;
+    ALLOW_TO_SELL: boolean;
+    CHARGE_POWER: number;
+    CHARGE_LIMIT: number;
+    DISCHARGE_POWER: number;
+    SOURCE: number;
+    ID: number;
+    UPDATED_AT: string;
+    UPDATED_BY: string;
+};
+
+export type ScheduleRow_Output = {
     rec_no: number;
     start_time: string;
     charge_from_grid: boolean;
@@ -502,11 +516,11 @@ export type ScheduleReadScheduleData = {
     tenantId: string;
 };
 
-export type ScheduleReadScheduleResponse = (Array<ScheduleRow>);
+export type ScheduleReadScheduleResponse = (Array<ScheduleRow_Output>);
 
 export type ScheduleBulkUpdateScheduleData = {
     date: string;
-    requestBody: Array<ScheduleRow>;
+    requestBody: Array<ScheduleRow_Input>;
     /**
      * Tenant ID to update schedule for
      */
